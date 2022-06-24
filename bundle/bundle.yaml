@@ -8,3 +8,5 @@ rbac:
   - "rbac.yaml"
 items:
   - "folders.yaml"
+variables:
+  - "variables.yaml"
