@@ -4,8 +4,6 @@ id: "REPLACE_GITHUB_ORG-dev-controller"
 description: "CloudBees CI configuration bundle for the REPLACE_GITHUB_ORG dev-controller Controller"
 availabilityPattern: "REPLACE_AVAILABILITY_PATTERN"
 parent: "rbac-base"
-rbac:
-  - "rbac.yaml"
 items:
   - "folders.yaml"
 variables:
