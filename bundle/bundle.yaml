@@ -7,4 +7,4 @@ parent: "base"
 rbac:
   - "rbac.yaml"
 items:
-  - "folders.yaml"
+  - "folder.yaml"
