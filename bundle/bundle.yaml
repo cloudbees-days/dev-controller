@@ -5,6 +5,6 @@ description: "CloudBees CI configuration bundle for the REPLACE_GITHUB_ORG dev-c
 availabilityPattern: "REPLACE_AVAILABILITY_PATTERN"
 parent: "rbac-base"
 items:
-  - "folders.yaml"
+  - "folder.yaml"
 variables:
   - "variables.yaml"
