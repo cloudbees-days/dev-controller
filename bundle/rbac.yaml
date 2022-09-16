@@ -28,7 +28,7 @@ roles:
   - hudson.model.Item.Configure
   - hudson.model.Item.Build
 groups:
-- name: Administrators
+- name: controller-admins
   members:
     users:
     - admin
@@ -37,7 +37,7 @@ groups:
   roles:
   - name: administrator
     grantedAt: current
-- name: Managers
+- name: controller-managers
   members:
     users:
     - "REPLACE_GITHUB_USERNAME"
