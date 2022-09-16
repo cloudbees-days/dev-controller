@@ -21,7 +21,7 @@ roles:
   - nectar.plugins.rbac.groups.Group.View
   - nectar.plugins.rbac.roles.Role.View
 groups:
-- name: Administrators
+- name: controller-admins
   members:
     users:
     - admin
@@ -30,7 +30,7 @@ groups:
   roles:
   - name: administrator
     grantedAt: current
-- name: Managers
+- name: controller-managers
   members:
     users:
     - "REPLACE_GITHUB_USERNAME"
