@@ -10,13 +10,29 @@ roles:
 - name: administrator
   permissions:
   - hudson.model.Hudson.Administer
+- name: manager
+  filterable: 'true'
+  permissions:
+  - hudson.model.Hudson.SystemRead
+  - hudson.model.Hudson.Manage
+  - com.cloudbees.plugins.credentials.CredentialsProvider.View
+  - com.cloudbees.pipeline.governance.templates.catalog.TemplateCatalogAction.ViewCatalogs
+  - com.cloudbees.jenkins.plugin.metrics.views.Alerter.View
+  - nectar.plugins.rbac.groups.Group.View
+  - nectar.plugins.rbac.roles.Role.View
 groups:
 - name: controller-admins
   members:
     users:
     - admin
     - team-admin
-    - "REPLACE_GITHUB_USERNAME-admin"
   roles:
   - name: administrator
+    grantedAt: current
+- name: controller-managers
+  members:
+    users:
+    - "REPLACE_GITHUB_USERNAME"
+  roles:
+  - name: manager
     grantedAt: current
