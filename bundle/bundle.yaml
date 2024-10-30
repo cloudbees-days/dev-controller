@@ -8,3 +8,5 @@ items:
   - "folder.yaml"
 variables:
   - "variables.yaml"
+jcasc:
+  - "jenkins.yaml"
