@@ -8,3 +8,5 @@ rbac:
   - "rbac.yaml"
 items:
   - "folder.yaml"
+jcasc:
+  - "jenkins.yaml"
