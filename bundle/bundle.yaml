@@ -6,3 +6,5 @@ availabilityPattern: "REPLACE_AVAILABILITY_PATTERN"
 parent: "base"
 rbac:
   - "rbac.yaml"
+jcasc:
+  - "jenkins.yaml"
