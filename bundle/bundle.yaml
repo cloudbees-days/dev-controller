@@ -4,3 +4,5 @@ id: "REPLACE_GITHUB_ORG-dev-controller"
 description: "CloudBees CI configuration bundle for the REPLACE_GITHUB_ORG dev-controller Controller"
 availabilityPattern: "REPLACE_AVAILABILITY_PATTERN"
 parent: "base"
+jcasc:
+  - "jenkins.yaml"
