@@ -13,8 +13,8 @@ roles:
   - name: manager
     filterable: 'true'
     permissions:
-      - hudson.model.Hudson.SystemRead
-      - hudson.model.Hudson.Manage
+      - hudson.model.Hudson.Read
+      - hudson.model.Hudson.Write
       - com.cloudbees.plugins.credentials.CredentialsProvider.View
       - com.cloudbees.pipeline.governance.templates.catalog.TemplateCatalogAction.ViewCatalogs
       - com.cloudbees.jenkins.plugin.metrics.views.Alerter.View
@@ -26,6 +26,7 @@ groups:
       users:
         - admin
         - team-admin
+        - "REPLACE_GITHUB_USERNAME"
     roles:
       - name: administrator
         grantedAt: current
